@@ -25,6 +25,10 @@
 }
 
 
+
+
+/* pulsanti */
+
 button {
     border: 0;
     color: var(--white);
@@ -41,6 +45,8 @@ button:hover {
 button:active {
     filter: brightness(0.8);
 }
+
+
 
 
 /* icone */
@@ -221,7 +227,6 @@ footer .icn-arrow-up {
 footer .icn-arrow-up::before {
     font-size: 0.6rem;
     margin-bottom: 0;
-    align-self: center;
 }
 
 footer > button:last-child {
