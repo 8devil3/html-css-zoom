@@ -27,15 +27,15 @@
 
 button {
     border: 0;
-    background-color: transparent;
     color: var(--white);
     filter: brightness(1);
     transition: filter 0.3s;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 button:hover {
-    filter: brightness(1.2);
+    filter: brightness(1.5);
 }
 
 button:active {
@@ -194,4 +194,39 @@ main {
 footer {
     height: 5rem;
     background-color: var(--darkGrey);
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.btn-wrapper:not(:last-child) {
+    margin-right: 1rem;
+}
+
+footer button {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: var(--darkGrey);
+}
+
+footer .icn::before {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+footer .icn-arrow-up {
+    align-self: center;
+}
+
+footer .icn-arrow-up::before {
+    font-size: 0.6rem;
+    margin-bottom: 0;
+    align-self: center;
+}
+
+footer > button:last-child {
+    color: var(--red);
+    font-weight: 700;
+    background-color: var(--lightGrey);
+    padding: 0 1rem;
 }
