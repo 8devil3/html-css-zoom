@@ -168,8 +168,8 @@ main {
 }
 
 .thumb {
-    flex-basis: 248px;
-    flex-grow: 1;
+    width: 248px;
+    height: 148px;
     margin: 0.5rem 0.2rem;
     position: relative;
 }
