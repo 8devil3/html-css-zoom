@@ -22,6 +22,7 @@
 
     /* sfondo */
     background-color: black;
+    overflow-x: hidden;
 }
 
 
