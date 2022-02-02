@@ -201,6 +201,7 @@ footer {
     height: 5rem;
     background-color: var(--darkGrey);
     justify-content: space-between;
+    white-space: nowrap;
 }
 
 .btn-wrapper:not(:last-child) {
