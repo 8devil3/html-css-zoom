@@ -229,6 +229,10 @@ footer .icn-arrow-up::before {
     margin-bottom: 0;
 }
 
+footer .icn-share-screen::before {
+    color: var(--green);
+}
+
 footer > button:last-child {
     color: var(--red);
     font-weight: 700;
